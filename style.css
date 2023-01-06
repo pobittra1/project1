@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0,0,0.5) url(images/donation3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+
+}
+.h-container{
+    width: 600px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#FFFFFF;
+}
+.h-container h1{
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  
+}
+.h-container p{
+    /* font-size: 18px; */
+    font-weight: 10;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.h-container button{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 800px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    color:#FFFFFF;
+
+
+    background-color: #FF5959;
+}
+
+
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain-main{
+    width: 600px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 100px;
+
+}
+
+.contain-main h1{
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    
+}
+.contain-main p{
+    font-weight: 10;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.price-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22px 0px;
+
+}
+
+.price-list li{
+    list-style: none;
+    font-size: 24px;
+    margin: 10px;
+    width: 100px;
+    background-color: rgb(128,128,128, 0.1);
+    text-align: center; padding: 22px 2px;
+
+}
+#dif-price{
+    color: #FF5959;
+    background-color: #fff;
+}
+
+.price-list li a{
+    text-decoration: none;
+
+}
+
+.amount-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 40px;
+
+}
+.amount-form input{
+    width: 100%;
+    padding: 4px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-width: 0px 0px 1px 0px;
+    outline: none;
+}
+
+.amount-form button{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 800px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    color:#FFFFFF;
+    margin-top: 20px;
+    background-color: #FF5959;
+}
+
+.main-tag{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-tag .contain-plan{
+    width: 600px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 50px;
+}
+.contain-plan h1{
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    
+}
+.contain-plan p{
+    font-weight: 10;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.cards{
+    margin-bottom: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card1{
+    margin: 8px;
+}
